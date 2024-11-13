@@ -32,3 +32,4 @@ count é em bytes, precisamos converter para pegar em elementos
 
 Não fazer dois gráficos 😭
 
+usuario fppd3002
