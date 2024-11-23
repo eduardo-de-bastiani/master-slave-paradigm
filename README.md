@@ -43,7 +43,7 @@ gcc seq.c -o seq
 srun --exclusive -N <num_machines> -n <num_cores> ./seq <num_Vetores> <tam_vetores> <sort_mechanism>
 
 ### Para compilar o paralelo
-ladcomp -env mpicc mpi_master_slave.c par
+ladcomp -env mpicc mpi_master_slave.c -o par
 
 ### Para rodar o paralelo
 srun --exclusive -N 1 -n 8 ./par <num_Vetores> <tam_vetores> <sort_mechanism>
@@ -59,3 +59,20 @@ ___
 
 ### Ideia:
 - uma medição com **1** máquina (1, 2, 4, 8, 16 cores)
+
+
+#### BSort: 5k vetores 10k elementos
+- Sequencial:
+- 2 cores: 
+- 4 cores:
+- 8 cores:
+- 16 cores:
+- 32 cores:
+
+#### QSort: 5k vetores 100k elementos
+- Sequencial: 28.02
+- 2 cores: 32.13 no verb.
+- 4 cores: 10.12 no verb.
+- 8 cores: 4.81 no verb.
+- 16 cores: 4.13 no verb.
+- 32 cores: 7.81 no verb. (2 machines) 
