@@ -62,17 +62,24 @@ ___
 
 
 #### BSort: 5k vetores 10k elementos
-- Sequencial:
-- 2 cores: 
-- 4 cores:
-- 8 cores:
-- 16 cores:
-- 32 cores:
+- Sequencial: 2239.40 (1 machine)
+- 2 cores: 2240.65 (1 machine)
+- 4 cores: 747.36 (1 machine)
+- 8 cores: 337.47 (1 machine)
+- 16 cores: 304.10 (1 machine)
+- 32 cores: 146.60 (2 machines)
 
 #### QSort: 5k vetores 100k elementos
-- Sequencial: 28.02
-- 2 cores: 32.13 no verb.
-- 4 cores: 10.12 no verb.
-- 8 cores: 4.81 no verb.
-- 16 cores: 4.13 no verb.
-- 32 cores: 7.81 no verb. (2 machines) 
+- Sequencial: 28.27 (1 machine)
+- 2 cores: 32.13 (1 machine) - 41.91 (2 machines) 
+- 4 cores: 10.12 (1 machine) - 14.40 (2 machines)
+- 8 cores: 4.81 (1 machine) - 7.54 (2 machines)
+- 16 cores: 4.13 (1 machine) - 6.77 (2 machines)
+- 32 cores: 7.55  (2 machines) 
+
+> colocar no gráfico somente execução com 1 máquina (exceto 32 cores)
+> iremos comparar a execução com 2 máquinas no texto (execução é paralela e distribuída, por isso o tempo maior!)
+
+### Relatório
+
+- comparar execução bubble sort com quicksort nos diferentes cores
