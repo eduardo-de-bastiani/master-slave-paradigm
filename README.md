@@ -62,19 +62,19 @@ ___
 
 
 #### BSort: 5k vetores 10k elementos
-- Sequencial: 2239.40 (1 machine)
-- 2 cores: 2240.65 (1 machine)
-- 4 cores: 747.36 (1 machine)
-- 8 cores: 337.47 (1 machine)
-- 16 cores: 304.10 (1 machine)
+- Sequencial: 2239.40
+- 2 cores: 
+- 4 cores: 745.01 (2 machines)
+- 8 cores: 321.09 (2 machines)
+- 16 cores: 158.0 (2 machines)
 - 32 cores: 146.60 (2 machines)
 
 #### QSort: 5k vetores 100k elementos
-- Sequencial: 28.27 (1 machine)
-- 2 cores: 32.13 (1 machine) - 41.91 (2 machines) 
-- 4 cores: 10.12 (1 machine) - 14.40 (2 machines)
-- 8 cores: 4.81 (1 machine) - 7.54 (2 machines)
-- 16 cores: 4.13 (1 machine) - 6.77 (2 machines)
+- Sequencial: 28.27 
+- 2 cores: 41.91 (2 machines) 
+- 4 cores: 14.40 (2 machines)
+- 8 cores: 7.54 (2 machines)
+- 16 cores: 6.77 (2 machines)
 - 32 cores: 7.55  (2 machines) 
 
 > colocar no gráfico somente execução com 1 máquina (exceto 32 cores)
