@@ -63,7 +63,7 @@ ___
 
 #### BSort: 5k vetores 10k elementos
 - Sequencial: 2239.40
-- 2 cores: 
+- 2 cores: 2250.67 (2 machines)
 - 4 cores: 745.01 (2 machines)
 - 8 cores: 321.09 (2 machines)
 - 16 cores: 158.0 (2 machines)
